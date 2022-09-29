@@ -1,0 +1,28 @@
+<div style="padding: 30px" class="row">
+  <div
+    *ngFor="let itm of skillDetail"
+    [ngClass]="{ 'primary-box': itm.selected, box: !itm.selected }"
+    class="primary-box col-md-3"
+  >
+    <div class="letter">
+      <P style="font-size: 50px; margin-bottom: 0px">o</P>{{ itm.name }}
+    </div>
+  </div>
+
+  <!-- <div class="box col-md-3">
+    <div class="letter">
+      <P style="font-size: 50px; margin-bottom: 0px">o</P>WEB DEVELOPMENT
+    </div>
+  </div>
+  <div class="box col-md-3">
+    <div class="letter">
+      <P style="font-size: 50px; margin-bottom: 0px">o</P>MOBILE DEVELOPMENT
+    </div>
+  </div>
+  <div class="box col-md-3">
+    <div class="letter">
+      <P style="font-size: 50px; margin-bottom: 0px">o</P> WEB SCRAPING WITH
+      PYTHON
+    </div>
+  </div> -->
+</div>

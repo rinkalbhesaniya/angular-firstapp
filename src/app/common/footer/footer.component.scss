@@ -1,0 +1,73 @@
+.lastPart {
+  background-color: black;
+  color: white;
+  padding-bottom: 50px;
+}
+.rowline {
+  padding-top: 100px;
+  display: flex;
+  background-color: black;
+}
+.column1 {
+  padding-left: 110px;
+  justify-content: right;
+}
+.connect {
+  color: #7158e2;
+  font-size: 32px;
+}
+.satisfied {
+  margin-top: 5px;
+  font-size: 18px;
+}
+.contact {
+  font-size: 24px;
+}
+
+.column2 {
+  // margin-left: 200px;
+  justify-content: center;
+}
+.iconImage {
+  height: 26px;
+  width: 26px;
+  margin-right: 10px;
+}
+input[type="text"] {
+  background-color: #232023;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 2px solid #232023;
+  margin-top: 10px;
+  width: 300px;
+  height: 40px;
+  padding-left: 15px;
+}
+.send {
+  color: white;
+
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #7158e2;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.icon {
+  display: flex;
+  justify-content: left;
+  padding-top: 10px;
+}
+.lastContent {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 0px;
+}
+.space {
+  padding-left: 110px !important;
+}
+.lastLine {
+  margin-right: 0px;
+}

@@ -1,0 +1,76 @@
+.imageBoxes {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+  padding-right: 50px;
+}
+
+.featured {
+  background-color: black;
+  padding-left: 100px;
+  height: 100%;
+}
+.title {
+  color: #7158e2;
+
+  padding-top: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.font {
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+  padding-right: 50px;
+}
+.imageBox {
+  margin-top: 30px;
+  height: 280px;
+  width: 260px;
+  border-radius: 5px;
+  border: 2px solid #232023;
+  margin-right: 20px;
+  padding-left: 0px;
+}
+.imageBack {
+  background-color: #232023;
+  height: 280px;
+  width: 260px;
+}
+.image {
+  height: 100px;
+  width: 260px;
+  padding-top: 10px;
+}
+.head {
+  padding-top: 10px;
+  color: #7158e2;
+  margin-left: 15px;
+}
+.fonts {
+  padding-top: 15px;
+  color: white;
+  margin-left: 15px;
+}
+.button1 {
+  margin-top: 15px;
+  color: white;
+  margin-left: 15px;
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #7158e2;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.button2 {
+  margin-top: 15px;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+  margin-left: 15px;
+  border-radius: 5px;
+  background-color: #7158e2;
+  border: 2px solid #7158e2;
+}
